@@ -8,13 +8,18 @@ public class Main {
         int n = scanner.nextInt();
         int r = scanner.nextInt();
         scanner.nextLine();
+
+        solusion1(n, r);
+    }
+
+    static void solusion1(int n, int r) {
         int total = 0;
         int tmp1 = 1;
         int radix1 = 1;
         while (n > tmp1) {
 
-           radix1 += 1;
-           tmp1 += radix1;
+            radix1 += 1;
+            tmp1 += radix1;
         }
         for(int i =n; i <= r; i++) {
             if(i < tmp1) {
