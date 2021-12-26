@@ -11,7 +11,6 @@ public class Main {
         p = scanner.nextInt();
         count = scanner.nextInt();
         scanner.nextLine();
-        int answer = 0;
         arr = new int[count];
         for(int i=0; i < count; i++) {
             arr[i] = scanner.nextInt();
@@ -20,24 +19,42 @@ public class Main {
 
         Arrays.sort(arr);
         int start=1, end = arr[count-1];
+        int ans = 0;
 
         while(start <= end) {
             int mid = (start + end)/2;
-            int sum = 0;
-            for(int i=0; i<count; i++) {
+
+            if(check(mid) == 1) {
+                ans =mid;
+                start = mid+1;
+            } else if(check(mid) == 2) {
+                end = mid-1;
+            } else {
+                System.out.println(0);
+                return;
+            }
+        }
+
+        System.out.println(ans);
+    }
+
+    static int check(long mid) {
+        long sum = 0 , sum2 = 0;
+
+        for(int i=0; i<count; i++) {
+            sum2 += arr[i];
+            if(arr[i] >= mid) {
                 sum += arr[i] / mid;
             }
 
             if(sum >= p) {
-                answer = mid;
-                start = mid+1;
-            } else {
-                end = mid-1;
+                return 1;
             }
         }
 
-        System.out.println(answer);
+        if(sum2 < p) {
+            return 3;
+        }
+        return 2;
     }
-
-
 }
