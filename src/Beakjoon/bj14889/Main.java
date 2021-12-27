@@ -19,7 +19,7 @@ public class Main {
             scanner.nextLine();
         }
 
-        combination(visit,0,count,count/2);
+        combination(visit,0, count,count/2);
 
         System.out.println(equal);
     }
