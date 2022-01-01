@@ -6,6 +6,8 @@ public class Main {
     static int N, L, R;
     static int[][] arr;
     static int[][] visit;
+    static int[] carr;
+    static int[] ctotal;
     static int[] dx = {-1, 0, 1, 0};
     static int[] dy = {0, -1, 0, 1};
     static int ans = 0;
@@ -17,6 +19,8 @@ public class Main {
         scanner.nextLine();
         arr = new int[N][N];
         visit = new int[N][N];
+        carr = new int[N*N+1];
+        ctotal = new int[N*N+1];
         for(int i=0; i < N; i++) {
             for(int j=0; j<N; j++) {
                 arr[i][j] = scanner.nextInt();
@@ -37,19 +41,15 @@ public class Main {
                         bfs(i,j,c);
                         c++;
                     }
+                }
+            }
+            for (int i=0; i<N; i++) {
+                for(int j=0; j < N; j++) {
+                    carr[visit[i][j]]++;
+                    ctotal[visit[i][j]] += arr[i][j];
+                }
+            }
 
-                }
-            }
-            int[] carr = new int[N*N];
-            for(int a=1; a < N*N; a++) {
-                for (int i=0; i<N; i++) {
-                    for(int j=0; j < N; j++) {
-                        if (a == visit[i][j]) {
-                            carr[a]++;
-                        }
-                    }
-                }
-            }
             boolean flag = true;
             for(int a=1; a < N*N; a++) {
                 if(carr[a] > 1) {
@@ -61,38 +61,24 @@ public class Main {
                 break;
             if(c > 1) {
                 calc();
+                for(int a=1; a < N*N; a++) {
+                    carr[a] = 0;
+                    ctotal[a] = 0;
+                }
                 ans++;
             }
+
+
         }
 
         System.out.println(ans);
     }
     static void calc() {
-        int tmp = 0;
-        int sum=0, count=0;
-        for (int i=0; i<N; i++) {
-            for(int j=0; j < N; j++) {
-                if (visit[i][j] > 0) {
-                    //print();
-                    tmp = visit[i][j];
-                    sum = 0; count = 0;
-                    for (int l = 0; l <N; l++) { // 같은 연합의 총 합과 나라 개수 세기
-                        for(int k = 0; k < N; k++) {
-                            if (tmp == visit[l][k]) {
-                                sum += arr[l][k];
-                                count++;
-                            }
-                        }
-                    }
-                    sum = sum / count;
-                    for (int l = 0; l <N; l++) { // 연합의 인구 이동
-                        for(int k = 0; k < N; k++) {
-                            if (tmp == visit[l][k]) {
-                                visit[l][k] = 0; //이동한 나라 체크
-                                arr[l][k] = sum; //인구 이동
-                            }
-                        }
-                    }
+        for (int i = 0; i < N; i++) {
+            for (int j = 0; j < N; j++) {
+                if (carr[visit[i][j]] > 0){
+                    arr[i][j] = ctotal[visit[i][j]] / carr[visit[i][j]];
+                    visit[i][j] = 0;
                 }
             }
         }
@@ -117,23 +103,6 @@ public class Main {
                     visit[x][y] = a;
                 }
             }
-        }
-
-    }
-    static void print() {
-        System.out.println("arr ================");
-        for(int i=0; i < N; i++) {
-            for(int j=0; j< N; j++) {
-                System.out.print(arr[i][j] + " ");
-            }
-            System.out.println();
-        }
-        System.out.println("visit ================");
-        for(int i=0; i < N; i++) {
-            for(int j=0; j< N; j++) {
-                System.out.print(visit[i][j] + " ");
-            }
-            System.out.println();
         }
     }
 }
