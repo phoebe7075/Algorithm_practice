@@ -6,22 +6,19 @@ public class Main {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         String s = bf.readLine();
         int n = Integer.parseInt(s);
-        int k = (int)Math.sqrt(n);
-        int len = 0;
-        if (n == 1) {
-            System.out.println(1+ "/" + 1);
-            return;
+        int k = 1, radix=1;
+        while (k < n) {
+            radix++;
+            k += radix;
         }
-        while ((k*(k+1))/2 <= n) {
-            k++;
-        }
-        k--;
-        len = n - (k*(k+1))/2;
-        k+=2;
-        if (k % 2 == 1) {
-            System.out.println(len +"/"+ (k-len));
-        } else {
-            System.out.println(k-len +"/"+ len);
+        k -= (radix-1);
+        int minus = n - k;
+
+        int len = 1 + minus;
+        if(radix%2 == 1) {
+            System.out.println((radix-len+1) + "/" + len);
+        }else{
+            System.out.println(len + "/" + (radix-len+1));
         }
     }
 }
