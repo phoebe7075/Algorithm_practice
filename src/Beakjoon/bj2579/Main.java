@@ -15,6 +15,10 @@ public class Main {
         for(int i=1; i<n+1; i++) {
             arr[i] = Integer.parseInt(bf.readLine());
         }
+        if(n == 1) {
+            System.out.println(arr[1]);
+            return;
+        }
         count[1] = arr[1];
         count[2] = arr[1]+arr[2];
         for(int i=3; i<=n; i++) {
