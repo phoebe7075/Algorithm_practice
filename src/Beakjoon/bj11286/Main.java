@@ -1,4 +1,4 @@
-package Beakjoon.bj1927;
+package Beakjoon.bj11286;
 
 import java.io.*;
 public class Main {
@@ -9,7 +9,7 @@ public class Main {
 
         for(int i=0; i< N; i++) {
             int a = Integer.parseInt(br.readLine());
-            if (a > 0) {
+            if (Math.abs(a) > 0) {
                 heap.add(a);
             }else {
                 heap.remove();
@@ -69,10 +69,12 @@ class Heap {
     public void Minheapify(int idx, int v) {
         while (idx > 1) {
             int parent = arr[getParent(idx)];
-            if (parent < v) {
+            if (Math.abs(parent) < Math.abs(v)) {
                 break;
             }
-
+            if (Math.abs(parent) == Math.abs(v) && parent < v) {
+                break;
+            }
             arr[idx] = parent;
             idx = getParent(idx);
         }
@@ -95,15 +97,25 @@ class Heap {
         while ((child = getLeftChild(parent)) <= size) {
             int right = getRightChild(parent);
             int cval = arr[child];
-
-            if(right <= size && cval > arr[right]) {
+            int rval = arr[right];
+            if(right <= size && Math.abs(cval) > Math.abs(rval)) {
                 child = right;
                 cval = arr[child];
             }
 
-            if(target < cval) {
+            if (right <= size && Math.abs(cval) == Math.abs(rval) && cval > rval) {
+                child = right;
+                cval = arr[child];
+            }
+
+            if(Math.abs(target) < Math.abs(cval)) {
                 break;
             }
+
+            if(Math.abs(target) == Math.abs(cval) && target < cval) {
+                break;
+            }
+
 
             arr[parent] = cval;
             parent = child;
@@ -112,3 +124,4 @@ class Heap {
         arr[parent] = target;
     }
 }
+
