@@ -1,25 +1,25 @@
-package Beakjoon.bj2630;
+package Beakjoon.bj1992;
 
 import java.io.*;
 
 public class Main {
     static int N;
     static int arr[][];
-    static int ans[] = new int[2];
+    static StringBuilder sb = new StringBuilder();
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         N = Integer.parseInt(br.readLine());
-        String s[];
+        String s;
         arr = new int[N][N];
         for(int i=0; i<N; i++) {
-            s = br.readLine().split(" ");
+            s = br.readLine();
 
             for(int j=0; j <N; j++) {
-                arr[i][j] = Integer.parseInt(s[j]);
+                arr[i][j] = s.charAt(j)-'0';
             }
         }
         cutting(N,0,0);
-        System.out.println(ans[0]+ "\n" +ans[1]);
+        System.out.println(sb.toString());
     }
 
     static boolean isSquare(int n, int x, int y) {
@@ -35,17 +35,20 @@ public class Main {
                 }
             }
         }
-        ans[a]++;
+        sb.append(a);
         return true;
     }
 
 
     static void cutting(int n, int x, int y) {
         if (!isSquare(n,x,y) && n != 1) {
+            sb.append("(");
             cutting(n/2,x,y);
-            cutting(n/2,x+n/2,y);
             cutting(n/2,x,y+n/2);
+            cutting(n/2,x+n/2,y);
             cutting(n/2,x+n/2,y+n/2);
+            sb.append(")");
         }
     }
 }
+
