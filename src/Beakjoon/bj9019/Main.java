@@ -73,42 +73,15 @@ public class Main {
     }
 
 
-    static int leftShift(int n) {
-        int x;
-
-        String s = Integer.toString(n);
-        StringBuilder tmp = new StringBuilder();
-        for(int i=4; i>s.length(); i--) {
-            tmp.append("0");
-        }
-
-        for(int i=0; i <s.length(); i++) {
-            tmp.append(s.charAt(i));
-        }
-        char one = tmp.charAt(0);
-        tmp.deleteCharAt(0);
-        tmp.append(one);
-
-        return Integer.parseInt(tmp.toString());
+    static int leftShift(int num) {
+        num *= 10;
+        num += num / 10000;
+        return num % 10000;
 
     }
-    static int rightShift(int n) {
-        int x;
-
-        String s = Integer.toString(n);
-        StringBuilder tmp = new StringBuilder();
-        for(int i=4; i>s.length(); i--) {
-            tmp.append("0");
-        }
-
-        for(int i=0; i <s.length(); i++) {
-            tmp.append(s.charAt(i));
-        }
-        char one = tmp.charAt(3);
-        tmp.deleteCharAt(3);
-        tmp.insert(0,one);
-
-        return Integer.parseInt(tmp.toString());
+    static int rightShift(int num) {
+        num += (num % 10) * 10000;
+        return num /= 10;
     }
 
     static void print(int n) {
