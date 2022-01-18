@@ -8,27 +8,15 @@ public class Main {
         int N = scanner.nextInt();
         scanner.nextLine();
 
-        int ans = 5, count=0;
-        int tmp = N;
-        int x = (int)Math.sqrt(N);
-        int y = x;
-        while (x > (int)Math.sqrt(N)/2) {
-            tmp -= y*y;
-            y = (int)Math.sqrt(tmp);
-            count++;
-            if(count > 4) {
-                x--;
-                count = 0;
-                tmp = N;
-                y =x;
-            }else if(tmp == 0 && count < ans) {
-                ans = count;
-                tmp = N;
-                x--;
-                count = 0;
-                y = x;
+        int arr[] = new int[50001];
+        arr[1] = 1; arr[2] = 2; arr[3] = 3;
+        for(int i=4; i<=N; i++) {
+            arr[i] = arr[i-1]+1;
+            for(int j=2; j*j <= i; j++) {
+                arr[i] = Math.min(arr[i], arr[i-j*j]+1);
             }
         }
-        System.out.println(ans);
+
+        System.out.println(arr[N]);
     }
 }
