@@ -2,7 +2,11 @@ package Beakjoon.old.bj1043;
 
 import java.io.*;
 import java.util.*;
-
+/*
+진실을 말하는 사람이 파티에 있으면 그 파티는 진실을 말해야 하는 파티.
+파티가 진실을 말해야 하는데 거기에 거짓말을 들을 수 있는 사람이 있으면 다시 검사해서
+그 사람은 진실을 아는 사람으로 바꾼다.
+ */
 public class Main {
     static boolean[] people;
     static boolean[] party;
