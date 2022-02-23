@@ -15,7 +15,7 @@ public class Main {
         E = Integer.parseInt(s[1]);
         graph = new ArrayList[V+1];
         usado = new int[V+1][V+1];
-        
+
         int u, v, w;
         for(int i=0; i<=V; i++) {
             graph[i] = new ArrayList<>();
