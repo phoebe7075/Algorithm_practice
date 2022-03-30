@@ -9,8 +9,7 @@ public class Main {
         String s[] = {"1 development hometask","1 recruitment marketing","2 hometask","2 development marketing hometask","3 marketing","3 officetask","3 development"};
         String p[] = {"development","marketing","hometask"};
         String x[] = {"recruitment","education","officetask"};
-        int ans[] = solution(3,p,x,s);
-        System.out.println(ans);
+
     }
     static int priority;
     public long solution(int[] abil, int k) {
