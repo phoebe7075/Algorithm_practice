@@ -1,5 +1,8 @@
 package Programmers.lv2_k진수에서_소수개수구하기;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Main {
 }
 class Solution {
