@@ -3,7 +3,7 @@ package Programmers.KaKao2022_01;
 public class Main {
 }
 class Solution {
-    public String solution(String[] survey, int[] choices) {
+    public String solution(String[] survey , int[] choices) {
         int[] list = new int[4];
         int[] clist = new int[]{-3,-2,-1,0,1,2,3};
         String answer = "";
