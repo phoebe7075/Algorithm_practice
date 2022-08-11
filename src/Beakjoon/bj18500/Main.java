@@ -1,8 +1,6 @@
 package Beakjoon.bj18500;
 
 
-import javafx.util.Pair;
-
 import java.io.*;
 import java.util.ArrayList;
 import java.util.LinkedList;
