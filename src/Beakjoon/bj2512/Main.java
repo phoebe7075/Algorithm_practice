@@ -23,7 +23,7 @@ public class Main {
             System.out.println(arr[n-1]);
             return ;
         }
-        int start = totalcap/n, end = total/n;
+        int start = totalcap/n, end = arr[n-1];
         int mid = 0;
         while(start <= end){
             mid = (start+end)/2;
