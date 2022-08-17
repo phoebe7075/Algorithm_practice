@@ -12,18 +12,18 @@ public class Main {
         for(int i=0; i<n; i++) {
             arr[i] = Integer.parseInt(s[i]);
         }
-        int[] lis = new int[n];
-        lis[0] = arr[0];
+        int[] dp = new int[n];
+        dp[0] = arr[0];
         int idx = 1;
         int tmp = 0;
         for (int i = 1; i < n; i++) {
-            if (lis[idx - 1] < arr[i]) {
-                lis[idx++] = arr[i];
-            } else if (lis[0] > arr[i]) {
-                lis[0] = arr[i];
+            if (dp[idx - 1] < arr[i]) {
+                dp[idx++] = arr[i];
+            } else if (dp[0] > arr[i]) {
+                dp[0] = arr[i];
             } else {
-                tmp = Arrays.binarySearch(lis, 0, idx, arr[i]);
-                lis[tmp < 0 ? (-tmp - 1) : tmp] = arr[i];
+                tmp = Arrays.binarySearch(dp, 0, idx, arr[i]);
+                dp[tmp < 0 ? (-tmp - 1) : tmp] = arr[i];
             }
         }
 
