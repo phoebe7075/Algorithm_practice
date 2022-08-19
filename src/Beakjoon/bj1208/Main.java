@@ -5,7 +5,6 @@ public class Main {
     static ArrayList<Integer> list = new ArrayList<>();
     static ArrayList<Integer> list2 = new ArrayList<>();
     static int[] arr;
-    static boolean zerosum = true;
     static int n;
     public static void main(String[] args)throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -18,44 +17,34 @@ public class Main {
             arr[i] = Integer.parseInt(s[i]);
         }
         subsetSum(0, 0, true);
-        zerosum = true;
         subsetSum(n/2, 0, false);
         
         Collections.sort(list);
         Collections.sort(list2);
         long ans = 0;
 
-        ans += overlapNumCount(list, target);
-        ans += overlapNumCount(list2, target);
         for(int i=0; i<list.size(); i++) {
             int t = target - list.get(i);
             ans += overlapNumCount(list2, t);
+        }
+        if(target == 0) {
+            ans--;
         }
         System.out.println(ans);
     }
     public static void subsetSum(int idx, int sum, boolean flag){
         if(flag) {
             if(idx == n/2) {
-                if(zerosum && sum == 0) {
-                    zerosum = true;
-                    return;
-                }else {
-                    list.add(sum);
-                    return;
-                }
+                list.add(sum);
+                return;
             }else {
                 subsetSum(idx+1, sum+arr[idx], flag);
                 subsetSum(idx+1, sum, flag);
             }
         }else {
             if(idx == n) {
-                if(zerosum && sum == 0) {
-                    zerosum = true;
-                    return;
-                }else {
-                    list2.add(sum);
-                    return;
-                }
+                list2.add(sum);
+                return;
             }else {
                 subsetSum(idx+1, sum+arr[idx], flag);
                 subsetSum(idx+1, sum, flag);
