@@ -21,16 +21,17 @@ public class Main {
             }
         }
 
-        Collections.sort(list3);
-        Collections.sort(list5);
+        Collections.sort(list3,Comparator.reverseOrder());
+        Collections.sort(list5,Comparator.reverseOrder());
         long[] sum3 = new long[list3.size()+1];
         long[] sum5 = new long[list5.size()+1];
-        for(int i=0; i<list3.size(); i++) {
-            sum3[i+1] = sum3[i]+list3.get(i);
+        for(int i=1; i<sum3.length; i++) {
+            sum3[i] = sum3[i-1]+list3.get(i-1);
         }
-        for(int i=0; i<list5.size(); i++) {
-            sum5[i+1] = sum5[i]+list5.get(i);
+        for(int i=1; i<sum5.length; i++) {
+            sum5[i] = sum5[i-1]+list5.get(i-1);
         }
+
 
         int x = Math.min(w/3, list3.size()); // 무게제한에 가장 많이 넣을 수 있는 3그램 사탕의 개수를 구함.
         long max = 0;
