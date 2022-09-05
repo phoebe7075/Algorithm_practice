@@ -39,7 +39,7 @@ public class Main {
                     dp[i] = dp[i-1]%MOD;
                 }else {
                     int tmp = (s.charAt(i-2)-'0')*10 + (s.charAt(i-1)-'0');
-                    if(tmp > 0 && tmp <= 26) {
+                    if(tmp > 0 && tmp <=26) {
                         dp[i] = dp[i-1]%MOD + dp[i-2]%MOD;
                     }else {
                         dp[i] = dp[i-1]%MOD;
