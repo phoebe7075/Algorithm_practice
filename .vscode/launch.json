@@ -1,0 +1,1470 @@
+{
+    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+    // 기존 특성에 대한 설명을 보려면 가리킵니다.
+    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj10830.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(1)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj10875.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(2)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj11052_카드구매_DP.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(3)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj11053.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(4)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj11054.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(5)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj11058.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(6)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj11066_파일합치기_DP.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(7)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj11404.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(8)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj11444.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(9)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj1149.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(10)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj11660.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(11)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj1167.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(12)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj11725.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(13)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj11779.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(14)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj12015.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(15)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj1208.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(16)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj12094.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(17)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj12100.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(18)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj1238.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(19)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj1253.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(20)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj12738.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(21)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj12865.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(22)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj1300.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(23)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj13172.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(24)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj14466.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(25)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj14502.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(26)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj14938.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(27)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj1516_게임개발_DP_위상정렬.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(28)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj1520_내리막길_DP.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(29)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj15591.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(30)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj15650.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(31)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj15652.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(32)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj15654.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(33)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj15657.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(34)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj15663.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(35)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj15666.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(36)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj15686.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(37)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj15961.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(38)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj1644.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(39)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj1654_랜선자르기_이분탐색.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(40)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj16953.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(41)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj16967.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(42)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj17070.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(43)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj17141.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(44)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj17144.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(45)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj17305.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(46)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj17404_RGB거리2_DP.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(47)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj1753.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(48)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj17780.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(49)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj17837.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(50)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj18500.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(51)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj1865.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(52)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj1912.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(53)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj1916.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(54)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj1918.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(55)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj1932.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(56)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj1937_욕심쟁이판다_DP.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(57)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj1939.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(58)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj1966.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(59)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj1967.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(60)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj1991.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(61)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj2011_암호코드_DP.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(62)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj2096.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(63)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj2110.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(64)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj2133_타일채우기_DP.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(65)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj2143.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(66)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj2150.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(67)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj2263.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(68)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj2293_동전_1_DP.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(69)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj2294_동전_2_DP.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(70)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj2352.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(71)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj2407.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(72)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj2448.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(73)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj2470.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(74)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj2473.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(75)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj2512.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(76)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj2533_사회망서비스_DP.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(77)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj2565_전깃줄_DP.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(78)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj2631_줄세우기_DP.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(79)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj2638.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(80)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj2748.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(81)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj5639.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(82)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj7579_앱_DP.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(83)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj8972.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(84)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj9251.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(85)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj9252.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(86)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj9465.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(87)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj9663.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(88)",
+            "request": "launch",
+            "mainClass": "Beakjoon.bj9935.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(89)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj1003.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(90)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj1011.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(91)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj1043.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(92)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj1074.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(93)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj10816.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(94)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj11047.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(95)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj1107.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(96)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj11279.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(97)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj11286.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(98)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj11399.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(99)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj11403.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(100)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj11659.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(101)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj11723.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(102)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj11724.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(103)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj11726.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(104)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj11727.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(105)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj1193.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch main",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj1213.main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(106)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj12851.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(107)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj12852.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(108)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj1292.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(109)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj13549.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(110)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj1371.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(111)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj1389.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(112)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj14429.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(113)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj14499.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(114)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj14500.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(115)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj14503.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(116)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj1463.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(117)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj14888.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(118)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj14889.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(119)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj1504.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(120)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj1541.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(121)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj15549.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(122)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj1620.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(123)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj16234.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(124)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj16236.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(125)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj1629.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(126)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj16401.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(127)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj1676.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(128)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj16928.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(129)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj17218.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(130)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj17219.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(131)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj1759.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(132)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj17626.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(133)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj1764.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(134)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj1780.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(135)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj18870.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(136)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj1927.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(137)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj1931.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(138)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj1935.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(139)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj1987.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(140)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj1992.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(141)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj20004.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(142)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj2003.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(143)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj2108.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(144)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj2343.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(145)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj2531.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(146)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj2579.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(147)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj2630.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(148)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj2751.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(149)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj2839.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(150)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj2869.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(151)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj3190.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(152)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj3273.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(153)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj5218.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(154)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj5430.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(155)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj5525.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(156)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj5613.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(157)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj6064.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(158)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj6236.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(159)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj7453.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(160)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj7662.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(161)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj9019.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(162)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj9095.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(163)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj9375.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(164)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj9461.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(165)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj9655.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(166)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj9656.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(167)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj9657.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(168)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj9659.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(169)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj9660.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(170)",
+            "request": "launch",
+            "mainClass": "Beakjoon.old.bj9661.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(171)",
+            "request": "launch",
+            "mainClass": "Beakjoon.tmp.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "HackerRank.Birthday_Cake_Candles.Solution",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution(1)",
+            "request": "launch",
+            "mainClass": "HackerRank.Mini_Max_Sum.Solution",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution(2)",
+            "request": "launch",
+            "mainClass": "HackerRank.PlusMinus.Solution",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution(3)",
+            "request": "launch",
+            "mainClass": "HackerRank.StairCase.Solution",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution(4)",
+            "request": "launch",
+            "mainClass": "HackerRank.Time_Conversion.Solution",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(172)",
+            "request": "launch",
+            "mainClass": "Programmers.KaKao2022_02.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(173)",
+            "request": "launch",
+            "mainClass": "Programmers.KaKao2022_04.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(174)",
+            "request": "launch",
+            "mainClass": "Programmers.KaKao2022_05.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(175)",
+            "request": "launch",
+            "mainClass": "Programmers.Line2022_01.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(176)",
+            "request": "launch",
+            "mainClass": "Programmers.Line2022_02.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(177)",
+            "request": "launch",
+            "mainClass": "Programmers.Line2022_03.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(178)",
+            "request": "launch",
+            "mainClass": "Programmers.LineCT_02.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(179)",
+            "request": "launch",
+            "mainClass": "Programmers.LineCT_03.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(180)",
+            "request": "launch",
+            "mainClass": "Programmers.SK_CT01_3.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(181)",
+            "request": "launch",
+            "mainClass": "Programmers.Webdev02.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(182)",
+            "request": "launch",
+            "mainClass": "Programmers.Webdev03.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(183)",
+            "request": "launch",
+            "mainClass": "Programmers.lv2_42746.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(184)",
+            "request": "launch",
+            "mainClass": "Programmers.lv2_거리두기_확인하기.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(185)",
+            "request": "launch",
+            "mainClass": "Programmers.lv2_단체사진_찍기.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(186)",
+            "request": "launch",
+            "mainClass": "Programmers.lv2_멀쩡한_사각형.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(187)",
+            "request": "launch",
+            "mainClass": "Programmers.lv2_문자열압축.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(188)",
+            "request": "launch",
+            "mainClass": "Programmers.lv2_수식_최대화.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(189)",
+            "request": "launch",
+            "mainClass": "Programmers.lv2_양궁대회.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(190)",
+            "request": "launch",
+            "mainClass": "Programmers.lv2_주차요금계산.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(191)",
+            "request": "launch",
+            "mainClass": "Programmers.lv2_튜플.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(192)",
+            "request": "launch",
+            "mainClass": "Programmers.lv3_경주로_건설.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(193)",
+            "request": "launch",
+            "mainClass": "Programmers.lv3_보석_쇼핑.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(194)",
+            "request": "launch",
+            "mainClass": "Programmers.lv3_불량_사용자.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(195)",
+            "request": "launch",
+            "mainClass": "Programmers.lv3_순위.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(196)",
+            "request": "launch",
+            "mainClass": "Programmers.lv3_징검다리_건너기.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(197)",
+            "request": "launch",
+            "mainClass": "Programmers.lv3_코딩테스트_공부.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch lv3_표_편집",
+            "request": "launch",
+            "mainClass": "Programmers.lv3_표_편집",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(198)",
+            "request": "launch",
+            "mainClass": "Programmers.lv3_풍선터트리기.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(199)",
+            "request": "launch",
+            "mainClass": "Programmers.lv4_징검다리.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(200)",
+            "request": "launch",
+            "mainClass": "Programmers.삼각달팽이.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        }
+    ]
+}
