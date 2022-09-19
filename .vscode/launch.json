@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Launch Main",
             "request": "launch",
+            "mainClass": "Beakjoon.bj1744_수묶기_그리디.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
             "mainClass": "Beakjoon.bj1202_보석도둑_그리디.Main",
             "projectName": "Algorithm_practice_9788532e"
         },
