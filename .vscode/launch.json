@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Launch Main",
             "request": "launch",
+            "mainClass": "Beakjoon.bj2573_빙산.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
             "mainClass": "Beakjoon.bj11505_구간곱구하기_세그먼트트리.Main",
             "projectName": "Algorithm_practice_9788532e"
         },
