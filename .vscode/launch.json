@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Launch Main",
             "request": "launch",
+            "mainClass": "Beakjoon.bj16946_벽부수고이동하기4_그래프.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
             "mainClass": "Beakjoon.bj2629_양팔저울_DP.Main",
             "projectName": "Algorithm_practice_9788532e"
         },
