@@ -8,6 +8,41 @@
             "type": "java",
             "name": "Launch Main",
             "request": "launch",
+            "mainClass": "Programmers.카카오2022공채_06.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Programmers.카카오2022공채_04.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Programmers.카카오2022공채_03.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Programmers.카카오2022공채_02.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Programmers.카카오2022공채_01.Main",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
             "mainClass": "Programmers.Line2022공채_3.Main",
             "projectName": "Algorithm_practice_9788532e"
         },
