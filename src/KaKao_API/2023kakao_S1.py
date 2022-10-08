@@ -1,7 +1,5 @@
 import requests
-import random
 import json
-from heapq import heappush, heappop
 baseUrl = "https://68ecj67379.execute-api.ap-northeast-2.amazonaws.com/api/"
 key = ""
 start_header= {'Content-Type':'application/json; charset=utf-8', 'X-Auth-Token':'2bc060df43d63643ac125a9f2fe6639d'}
@@ -76,16 +74,16 @@ class SLL:
         
         return None
     
-    def print(self):
+    def checking(self, time):
         if(self.head.next != None):
-            return self.head.next.data[2]
-        else:
-            return 0
+            if(self.head.next.data[0] >= time):
+                return True
+        return False
             
         
-
-room_list = [[SLL([0,0]) for col in range(20)] for row in range(3)]
-reserve_list = []
+width = 20
+height = 3
+room_list = [[SLL([0,0]) for col in range(width)] for row in range(height)]
 
 def start():
     resp = requests.post(baseUrl+"start", headers=start_header, data=json.dumps({'problem' :1}))
@@ -94,7 +92,6 @@ def start():
     print(key)
     header["Authorization"] = key
     return resp
-
 
 def getNewRequset():
     resp = requests.get(baseUrl+"new_requests", headers=header)
@@ -123,7 +120,7 @@ def sendSimulation(simulate):
 
 
 def requestScheduling(req):
-    global reserve_list, room_list
+    global room_list
     reply_command = []
     for request in req:
         command = {}
@@ -145,31 +142,32 @@ def requestScheduling(req):
             
         
 def searchRoom(amount, checkDate):
-    global room_list
+    global room_list, reserve_rate
     count = 0
-    for i in range(3):
-            for j in range(20):
-                count = 0
-                if room_list[i][j].canReservation(checkDate):
-                    count = 1
-                    for k in range(j+1, min(20,j+amount)):
-                        if(not room_list[i][k].canReservation(checkDate)):
-                            j = k
-                            break
-                        else:
-                            count+=1
-                    if(count == amount):
-                        return [i,j]
+    for i in range(height):
+        for j in range(width):
+            count = 0
+            if room_list[i][j].canReservation(checkDate):
+                count = 1
+                for k in range(j+1, min(width,j+amount)):
+                    if(not room_list[i][k].canReservation(checkDate)):
+                        j = k
+                        break
+                    else:
+                        count+=1
+                if(count == amount):
+                    return [i,j]
+        
     return [-1, -1]
 
 
 def simulating(time):
-    global room_list, reserve_list
+    global room_list
     
     command = []
     already_add_list = []
-    for i in range(3):
-        for j in range(20):
+    for i in range(height):
+        for j in range(width):
             res = room_list[i][j].checkin(time)
             if (res != None):
                 if(res[2] not in already_add_list):
@@ -182,25 +180,35 @@ def simulating(time):
 def roomClearing(time):
     global room_list
     
-    for i in range(3):
-            for j in range(20):
+    for i in range(height):
+            for j in range(width):
                 room_list[i][j].checkout(time)
                 
 
 def printing():
     global room_list
     
-    for i in range(3):
+    for i in range(height):
         tmparr = []
-        for j in range(20):
+        for j in range(width):
             tmparr.append(room_list[i][j].print())
         print(tmparr)
         
+def calcReserveRate(time):
+    global room_list, reserve_rate
+    reserve_rate = [0 for i in range(3)]
+    for i in range(height):
+        for j in range(width):
+            if (room_list[i][j].checking(time)):
+                reserve_rate[i] += 1
+
+
 
 if __name__ == "__main__":
     start()
     time = 1
     while(time <= 200):
+        calcReserveRate(time)
         response = getNewRequset()
         sendReply(requestScheduling(response))
         roomClearing(time)

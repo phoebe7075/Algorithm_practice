@@ -5,7 +5,7 @@ key = ""
 start_header= {'Content-Type':'application/json; charset=utf-8', 'X-Auth-Token':'2bc060df43d63643ac125a9f2fe6639d'}
 header = {'Content-Type':'application/json; charset=utf-8',"Authorization":key}
 
-
+# 점수 473.41074777262816
 
 class Node:
     def __init__(self, data):
