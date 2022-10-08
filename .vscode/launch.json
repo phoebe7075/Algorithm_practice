@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "KaKao_exam_API.app.src.main.java.App",
+            "projectName": "Algorithm_practice_9788532e"
+        },
+        {
+            "type": "java",
             "name": "Launch Main",
             "request": "launch",
             "mainClass": "Programmers.카카오2022공채_06.Main",

@@ -1,0 +1,1 @@
+Lincked List 클래스 구현 : https://duckracoon.tistory.com/entry/Python-Data-Structure-Queue-Stack-Linked-List 참고.
