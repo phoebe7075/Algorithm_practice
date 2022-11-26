@@ -6,7 +6,9 @@ start_header= {'Content-Type':'application/json; charset=utf-8', 'X-Auth-Token':
 header = {'Content-Type':'application/json; charset=utf-8',"Authorization":key}
 
 # 점수 473.41074777262816
+# 100등 기준 900.6
 
+# 내 합산 점수 : 843.89
 class Node:
     def __init__(self, data):
         self.data = data

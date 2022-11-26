@@ -5,7 +5,7 @@ key = ""
 start_header= {'Content-Type':'application/json; charset=utf-8', 'X-Auth-Token':'2bc060df43d63643ac125a9f2fe6639d'}
 header = {'Content-Type':'application/json; charset=utf-8',"Authorization":key}
 
-
+# 점수 370.48567396223035
 
 class Node:
     def __init__(self, data):
@@ -46,8 +46,8 @@ class SLL:
             
     def checkout(self, time):
         node = self.head
-        if(self.list_size > 2):
-            abc = 1
+        # if(self.list_size > 2):
+        #     abc = 1
         if(node.data[1] == time):
             self.head = node.next
             return
@@ -208,7 +208,7 @@ if __name__ == "__main__":
     start()
     time = 1
     while(time <= 200):
-        calcReserveRate(time)
+        #calcReserveRate(time)
         response = getNewRequset()
         sendReply(requestScheduling(response))
         roomClearing(time)
