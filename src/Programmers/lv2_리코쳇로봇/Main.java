@@ -35,7 +35,12 @@ class Solution {
         }
         
         bfs();
-        return visit[gx][gy]-1;
+        if(visit[gx][gy] > 0) {
+            return visit[gx][gy]-1;
+        }else {
+            return -1;
+        }
+        
     }
     
     static void bfs() {
