@@ -7,8 +7,8 @@ public class Main {
 
 class Solution {
     public int solution(String[][] book_time) {
-        ArrayList<Integer> list = new ArrayList<>();
-        PriorityQueue<Node> q = new PriorityQueue<>();
+        PriorityQueue<Integer> q = new PriorityQueue<>();
+        
         Arrays.sort(book_time, new Comparator<String[]>(){
             @Override
             public int compare(String[] o1, String[] o2) {
@@ -16,45 +16,27 @@ class Solution {
                 return (in1 - in2);
             }
         });
+        
         for(int i=0; i<book_time.length; i++) {
             int in = timeConvert(book_time[i][0]);
             int out = timeConvert(book_time[i][1])+10;
-            if(list.size() == 0) {
-                list.add(out);
-                q.add(new Node(0, out));
-            }else {
-                if(q.peek().outTime <= in) {
-                    Node tmp = q.poll();
-                    list.set(tmp.roomNum, out);
-                    q.add(new Node(tmp.roomNum, out));
-                }else {
-                    list.add(out+10);
-                    q.add(new Node(list.size()-1, out));
-                }
+            
+            if(q.isEmpty()) {
+                q.add(out);
+            } else {
+                if(q.peek() <= in) {
+                    q.poll();
+                } 
+                q.add(out);
             }
         }
         
-        
-        
-        return list.size();
+        return q.size();
     }
     
     static int timeConvert(String time) {
         String[] s = time.split(":");
         return (Integer.parseInt(s[0])*60 + Integer.parseInt(s[1]));
-    }
-}
-
-class Node implements Comparable<Node>{
-    int roomNum, outTime;
-    Node(int r, int o) {
-        roomNum = r;
-        outTime = o;
-    }
-    
-    @Override
-    public int compareTo(Node a) {
-        return this.outTime - a.outTime;
     }
 }
 
